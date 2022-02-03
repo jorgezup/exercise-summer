@@ -1,3 +1,54 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 720px;
+  margin-top: 40px;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.btn-nav {
+  background-color: purple;
+  color: white;
+  font-size: 18px;
+  margin-right: 6px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.title-page {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: goldenrod;
+}
+
+input {
+  border-radius: 8px;
+  border: 2px solid indianred;
+  padding: 8px 16px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: rgba(218, 196, 196, 0.198);
+}
+
+.history {
+  font-size: 18px;
+  background-color: cornsilk;
+  color: cadetblue;
 }

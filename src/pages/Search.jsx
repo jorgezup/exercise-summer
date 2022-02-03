@@ -1,9 +1,15 @@
 import React from "react";
+import Nav from '../components/Nav'
 
 class Search extends React.Component {
   render () {
+    const buscaTerm = this.props.match.params.searchTerm
     return (
-      <div>Search</div>
+      <>
+        <div className="title-page">Search Page</div>
+        <p>{buscaTerm}</p>
+        <Nav />
+      </>
     );
   }
 }
